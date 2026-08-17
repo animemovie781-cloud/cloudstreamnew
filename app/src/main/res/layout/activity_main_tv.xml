@@ -68,7 +68,6 @@
             app:itemIconTint="@color/item_select_color"
             app:itemTextColor="@color/item_select_color"
             app:itemActiveIndicatorStyle="@style/BottomNavActiveIndicator"
-            app:itemActiveIndicatorColor="?attr/colorPrimary"
             app:labelVisibilityMode="unlabeled"
 
             app:layout_constraintBottom_toBottomOf="parent"
