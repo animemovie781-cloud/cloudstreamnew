@@ -773,13 +773,14 @@
         <item name="expandedActiveIndicatorPaddingBottom">0dp</item>
     </style>
 
-    <style name="BottomNavActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+     <style name="BottomNavActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:height">40dp</item>
         <item name="android:width">40dp</item>
-        <item name="shapeAppearanceCornerFamily">round</item>
-        <item name="shapeAppearanceCornerSize">16dp</item>
-        <item name="android:marginTop">8dp</item>
-        <item name="android:marginBottom">8dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.BottomNavActiveIndicator</item>
+    </style>
+
+    <style name="ShapeAppearance.BottomNavActiveIndicator" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">16dp</item>
     </style>
 
     <style name="BlackButton" parent="NiceButton">
