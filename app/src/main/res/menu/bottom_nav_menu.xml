@@ -6,7 +6,7 @@
             android:title="@string/title_home" />
         <item
             android:id="@+id/navigation_search"
-            android:icon="@drawable/search_icon"
+            android:icon="@drawable/search_icon_selector"
             android:title="@string/title_search" />
         <item
             android:id="@+id/navigation_library"
@@ -14,7 +14,7 @@
             android:title="@string/library" />
         <item
             android:id="@+id/navigation_downloads"
-            android:icon="@drawable/netflix_download"
+            android:icon="@drawable/download_icon_selector"
             android:title="@string/title_downloads" />
         <item
             android:id="@+id/navigation_settings"

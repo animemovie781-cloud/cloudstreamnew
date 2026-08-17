@@ -62,9 +62,13 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/nav_view_height"
             android:background="?attr/primaryGrayBackground"
+            android:elevation="@dimen/nav_view_elevation"
             android:visibility="gone"
+            app:itemIconSize="@dimen/nav_view_icon_size"
             app:itemIconTint="@color/item_select_color"
             app:itemTextColor="@color/item_select_color"
+            app:itemActiveIndicatorStyle="@style/BottomNavActiveIndicator"
+            app:itemActiveIndicatorColor="?attr/colorPrimary"
             app:labelVisibilityMode="unlabeled"
 
             app:layout_constraintBottom_toBottomOf="parent"
